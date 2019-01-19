@@ -26,8 +26,13 @@
 ;    (lambda () (Koch 3 200) (rt 300)))
 ;  (SDragon 6 200 1)
 ;  (Heighway 10 200 1)
- (Barnsley 5 200)
+;  (Barnsley 5 200)
+;  (Gasket 5 200)
 ;  (lt 30)
+  (begin_fill)
+  (polygon 200 3)
+  (end_fill)
+  (GasketTrema 5 200)
 
 
 
